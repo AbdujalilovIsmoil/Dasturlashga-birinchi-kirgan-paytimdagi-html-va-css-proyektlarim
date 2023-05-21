@@ -1,0 +1,19 @@
+#check:checked ~ .box{
+    background: black;
+    color: white;
+}
+.box{
+    transition: .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.box-2{
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+input{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}

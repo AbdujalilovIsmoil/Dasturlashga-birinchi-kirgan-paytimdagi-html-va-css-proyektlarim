@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 153, 31);
+}
+.container{
+    margin: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: white;
+    height: 350px;
+    width: 280px;
+    margin: 10px;
+    position: relative;
+}
+.box-one{
+    background-color: rgb(53, 117, 212);
+    height: 150px;
+    width: 280px;
+}
+.box-two{
+    background-color: rgb(73, 63, 63);
+    height: 150px;
+    width: 280px;
+}
+.box-three{
+    background-color: rgb(224, 30, 30);
+    height: 150px;
+    width: 280px;
+}
+.box-paragraph{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 150px;
+    font-family: sans-serif;
+}
+.box-paragraph span{
+    font-size: 23px;
+}
+.box-size-1{
+    background-image: linear-gradient(to right, rgb(34, 106, 214), rgb(182, 16, 146));
+    height: 25px;
+    width: 260px;
+}
+.box-size-span{
+    color: black;
+    font-weight: bold;
+}
+.box-size-2{
+    background-image: linear-gradient(to right,rgb(56, 49, 49), rgb(187, 187, 187) );
+    height: 25px;
+    width: 260px;
+}
+.box-size-3{
+    background-image: linear-gradient(to right, red, rgb(255, 102, 0));
+    height: 25px;
+    width: 260px;
+    
+}
+.box-size-1, .box-size-2, .box-size-3 {
+    margin: 0 10px 0 10px;
+    position: absolute;
+    top: 135px;
+}
+.box-size-paragraph{
+    color: white;
+    text-align: center;
+    font-size: 15px;    
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.box-size-link{
+    color: rgb(73, 63, 63);
+    border: 1px solid rgb(73, 63, 63);
+    width: 260px;
+    height: 25px;
+    padding: 5px 50px;
+    
+}
+a{
+    margin: 0 0 0 40px;
+}

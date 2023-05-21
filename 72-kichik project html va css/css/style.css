@@ -1,0 +1,99 @@
+*{
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     text-decoration: none;
+     box-sizing: border-box;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: rgb(236, 183, 83);
+}
+.card{
+     width: 300px;
+     height: 400px;
+     text-align: center;
+     background-color: white;
+     border-radius: 5px;
+     padding: 10px;
+     overflow: hidden;
+}
+.card__img{
+     height: 150px;
+     width: 150px;
+     margin: 0 auto;
+     position: relative;
+     top: -75px;
+     transition: 1s ease;
+     bottom: 0;
+}
+.card__img img {
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+     z-index: 1;
+     object-fit: cover;    
+}
+.card__img:hover{
+     height: 400px;
+     width: 300px;
+     position: relative;
+     border-radius: 0px;
+     z-index: 1;
+     top: 0;
+}
+.card__img img:hover {
+     height: 100%;
+     width: 100%;
+     z-index: 1;
+     border-radius: 0px;
+     object-fit: cover;    
+}
+.card__name{
+     text-align: center;
+     position: relative;
+     top: -50px;
+}
+.card__name .heading__one{
+     font-family: Arial, Helvetica, sans-serif;
+     color: orange;
+     font-weight: 400;
+     
+}
+.card__name .heading__three{
+     font-family: Arial, Helvetica, sans-serif;
+     color: grey;
+     font-weight: 400;
+}
+.card__name .card__underline{
+     height: 3px;
+     margin: 20px auto;
+     width: 50px;
+     background-color: grey;
+}
+.card__text{
+     text-align: center;
+     position: relative;
+     top: -40px;
+}
+.card__text .paragraph__one{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;
+     color: silver;
+}
+.card__btn .btn{
+     background-color: orange;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+     outline: none;
+     border: 1.5px solid orange;
+     padding: 10px 15px;
+     cursor: pointer;
+     position: relative;
+     top: -15px;
+     border-radius: 5px;
+}

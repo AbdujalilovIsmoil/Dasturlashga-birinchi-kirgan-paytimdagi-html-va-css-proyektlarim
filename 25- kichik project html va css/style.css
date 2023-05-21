@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+input[type="checkbox"] {
+    display: none;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.menu {
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.menu-btn{
+    height: 3px;
+    width: 75px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    background: black;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.menu-btn::before{
+    position: absolute;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    content: '';
+    height: 3px;
+    width: 75px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    background: black;
+}
+#check:checked ~ label .menu-btn:before{
+      margin: 100px 0 0 0;
+      transform: rotate(45deg);
+}
+

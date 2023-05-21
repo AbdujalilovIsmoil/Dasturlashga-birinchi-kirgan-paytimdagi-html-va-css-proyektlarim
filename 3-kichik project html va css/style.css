@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+  .div-1{
+      height: 70px;
+      width: 150px;
+      border-radius: 50px;
+      margin: 250px auto;
+      transition: all 1s;
+      background-color: red;
+      box-shadow: 0 0 10px white;
+  }
+  .div-1:hover{
+     box-shadow: 0 0 10px white;
+     background-color: blue;
+  }
+  .div-2{
+      height:60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: blue;
+      position: relative;
+      top: 5px;
+      left: 5px;
+      transition: all 1s;
+  }
+
+  .div-2:hover{
+      height:60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: red;
+      position: relative;
+      top: 5px;
+      left: 85px;
+
+      
+  }
+  input{
+      inline-size: 50px;
+      block-size: 100px;
+  }

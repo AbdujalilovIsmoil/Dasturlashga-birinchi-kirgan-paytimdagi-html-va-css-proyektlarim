@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container {
+    background: rgb(1, 183, 255);
+    margin: 100px 0 0 0;
+    display: block;
+    height: 100%;
+    transform: translateX(-300px);
+    transition: .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-radius: 3px;
+    width: 300px;
+}
+.container .logo {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 25px 0 0 0;
+}
+ul {
+    text-align: center;
+    padding: 15px 0;
+}
+ul li {
+    display: block;
+    padding: 15px;
+}
+ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: .5px;
+    transition: .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+ul li a i {
+    font-size: 25px;
+    margin: 0 5px 0 0;
+}
+ul li a:hover {
+    letter-spacing: 5px;
+    color: blue;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label i {
+    position: absolute;
+    background: rgb(1, 183, 255);
+    color: white;
+    padding: 10px 10px;
+    font-size: 30px;
+    left: 300px;
+    cursor: pointer;
+}
+#check:checked ~ .container {
+    transform: translateX(0);
+}
+#check:checked ~ .container #bars {
+    display: none;
+}

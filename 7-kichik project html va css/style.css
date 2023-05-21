@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 17, 17);
+}
+.container-class{
+    background-color: black;
+    height: 300px;
+    width: 250px;
+    margin: 100px auto;
+    padding: 0 15px;
+    z-index: 1;
+}
+.container-one{
+    background-color: blue;
+    height: 150px;
+    width: 125px;
+    position: absolute;
+    right: 620.5px;
+    z-index: -1;
+    box-shadow: 0 0 15px 2px blue;
+}
+.container-two{
+    background-color: rgb(255, 0, 85);
+    height: 150px;
+    width: 125px;
+    position: absolute;
+    bottom: 196.9px;
+    right: 495.5px;
+    z-index: -1;
+    box-shadow: 0 0 15px 2px rgb(255, 0, 85);
+}
+.container-three{
+    background-color: white;
+    height: 150px;
+    width: 125px;
+    position: absolute;  
+    right: 620.5px;
+    bottom: 197px;
+    z-index: -1;
+}
+.container-four{
+    background-color: white;
+    height: 150px;
+    width: 125px;
+    position: absolute; 
+    right: 496px; 
+    z-index: -1;
+}
+.container-paragraph{
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+input{
+    outline: none;
+    background-image: linear-gradient(to right, blue, rgb(255, 0, 85));
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px 0 5px 0;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+::placeholder{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-indent: 2px;
+    
+}
+label{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0 0 0 5px;
+}
+button{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, blue, rgb(255, 0, 85));
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.container-paragraph-one{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px 5px;
+}
+.container-span a{
+    color: red;
+    text-decoration: underline;
+    margin: 0 0 0 5px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+p{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 250px 0 0 0;
+    color: white;
+    text-transform: uppercase;
+    animation-name: duration;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+}
+@keyframes duration {
+    0%{
+        text-shadow: 0 0 10px blue;
+    }
+    100%{
+        text-shadow: 0 0 10px blue,
+                     0 0 20px blue,
+                     0 0 30px blue,
+                     0 0 40px blue,
+                     0 0 50px blue,
+                     0 0 60px blue,
+                     0 0 70px blue,
+                     0 0 80px blue,
+                     0 0 90px blue,
+                     0 0 100px blue,
+                     0 0 110px blue,
+                     0 0 120px blue,
+                     0 0 130px blue,
+                     0 0 140px blue,
+                     0 0 150px blue,
+                     0 0 160px blue,
+                     0 0 170px blue,
+                     0 0 180px blue,
+                     0 0 190px blue,
+                     0 0 200px blue;
+    }
+}

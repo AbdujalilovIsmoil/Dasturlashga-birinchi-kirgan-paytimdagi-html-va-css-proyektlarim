@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    border: 10px solid rgb(245, 24, 24);
+    box-shadow: 0 0 50px white inset;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    animation-name: duration;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    margin: 0 100px;
+    animation-direction: alternate;
+}
+@keyframes duration {
+    0%{
+        border: 10px solid red;
+        box-shadow: 0 0 10px white inset; 
+
+    }   
+    50%{
+        border: 10px solid blue;
+        transform: rotate(360deg) translate(-360px);
+        box-shadow: 0 0 50px white inset;
+    }
+    100%{
+        border: 10px solid green;
+        transform: rotate(-360deg) translate(360px);
+        box-shadow: 0 0 50px red inset;
+
+    }
+}
